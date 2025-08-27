@@ -83,48 +83,4 @@ Cada tarea indica el número de días que invertiremos en el aprendizaje y desar
 
 **Nota**: Utilizar interfaces solamente para la definición de los repositorios. No usar interfaces para la definición de controladores ni de servicios.
 
-## Tarea 4: día 7
 
-1.  Crear un repositorio que accede a la base de datos `training_db` con los métodos necesarios para dar servicio a la lógica de negocio. Hacer uso de JPA para la creación de repositorios.
-2.  Crear los mappers para separar las entidades de los repositorios para desacoplar el código de nuestra aplicación.
-
-**Nota1**: Utilizar interfaces solamente para la definición de los repositorios. No usar interfaces para la definición de 
-controladores ni de servicios. <br>
-**Nota2**: No usar mapStruct, sino mappers custom.<br>
-**Nota3**: Siempre que tengamos que iterar sobre algo usar streams (programación funcional). No usar for, while, dowhile, etc.
-
-## Tarea 5: día 8 y día 9
-
-1.  Realizar todos los tests unitarios de todas las clases.
-
-**Nota**: Mockear todas las dependencias a la clase que se quiere testear.
-
-## Tarea 6: dia 10 y dia 11
-
-1. Crear un nuevo microservicio para toda la funcionalidad de payments (arquitectura MVC).
-    1. Listado de todos los pagos de un cliente.
-    2. Update de un pago.
-    3. Inserción de un nuevo pago.
-
-## Tarea 7: día 12
-
-1.  Creación de los test de la tarea 6 usando jUnit y Mockito.
-
-## Tarea 8: día 13
-
-1. Teoría de la arquitectura DDD (Domain Driver Desing).
-    1. Buscar todos los videos necesarios donde expliquen esto. 
-       1. DDD en 20 min:
-          1. https://www.youtube.com/watch?v=dH5aSQLXtKg&t=24s&ab_channel=CodelyTV-Redescubrelaprogramaci%C3%B3n
-       2. Rigor Talks en Php pero son conceptos básicos:
-          1. https://www.youtube.com/watch?v=dH5aSQLXtKg&t=24s&ab_channel=CodelyTV-Redescubrelaprogramaci%C3%B3n
-       3. Qué es la arquitectura hexagona y cómo aplicarla:
-          1. https://www.youtube.com/watch?v=dH5aSQLXtKg&t=24s&ab_channel=CodelyTV-Redescubrelaprogramaci%C3%B3n
-       4. Clean architecure:
-          1. https://www.youtube.com/watch?v=dH5aSQLXtKg&t=24s&ab_channel=CodelyTV-Redescubrelaprogramaci%C3%B3n
-
-**Repo de referencia:** https://github.com/sandokandias/spring-boot-ddd 
-
-## Tarea 9: día 14 y día 15
-
-1. Criterio del formador para refactorizar la arquitectura DDD o repasar temas que crea que no están suficientemente preparados. *Improvisar*
