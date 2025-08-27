@@ -1,7 +1,9 @@
 package com.capgemini.training.api.model;
 
 import io.swagger.v3.oas.annotations.media.Schema;
-import javax.validation.constraints.NotBlank;
+//import javax.validation.constraints.NotBlank;//17
+import jakarta.validation.constraints.NotBlank;//21
+
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
